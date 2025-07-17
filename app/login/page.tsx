@@ -2,8 +2,8 @@
 import {signIn} from "next-auth/react"
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
+import { Label } from "../components/ui/label";
+import { Input } from "../components/ui/input";
 import { cn } from "@/lib/utils";
 
 const Login = () => {
